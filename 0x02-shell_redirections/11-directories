@@ -1,2 +1,3 @@
-s#!/bin/bash
-find . -type d -not -name . | wc -l
+#!/bin/bash
+find ./* -type d -print | wc -1
+
